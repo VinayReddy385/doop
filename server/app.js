@@ -11,7 +11,7 @@ var app = express();
 var mongoose=require('mongoose');//
 var empRouter=require('./routes/employee');//
 var userRouter=require('./routes/user');
-mongoose.connect('mongodb://127.0.0.1:27017/Employees-details');//
+mongoose.connect('mongodb+srv://meghavinayreddy:Pvinay%40143@dolla0.x7n6myv.mongodb.net/Employees-details');//
 mongoose.connection.on('connected',()=>{//
   console.log("Database connected");
 })
